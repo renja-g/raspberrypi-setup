@@ -6,6 +6,7 @@
 - [Connect to Raspberry Pi through SSH](#connect-to-raspberry-pi-through-ssh)
 - [Update and Upgrade Raspberry Pi](#update-and-upgrade-raspberry-pi)
 - [Configure Raspberry Pi](#configure-raspberry-pi)
+- [Docker Setup](#docker-setup)
 
 ## Install Raspbian
 
@@ -51,3 +52,4 @@ Expand file system to ensure that all of the SD card storage is available to the
 `Advanced Options > Expand Filesystem`
 
 
+## Docker Setup
