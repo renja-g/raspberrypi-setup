@@ -51,9 +51,3 @@ Expand file system to ensure that all of the SD card storage is available to the
 `Advanced Options > Expand Filesystem`
 
 
-
-Commit the changes and reboot your Pi with
-
-```bash
-sudo reboot
-```
