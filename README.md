@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Install Raspbian](#install-raspbain)
+- [Install Raspbian](#install-raspbian)
 - [Connect to Raspberry Pi through SSH](#connect-to-raspberry-pi-through-ssh)
 - [Update and Upgrade Raspberry Pi](#update-and-upgrade-raspberry-pi)
 - [Configure Raspberry Pi](#configure-raspberry-pi)
@@ -46,11 +46,11 @@ sudo raspi-config
 
 Make the following configurations:
 
-- Expand file system to ensure that all of the SD card storage is available to the OS.
-- Choose Boot Options as `B1 Console`.
-- Update your locale settings.
-- Set the Memory Split (Advanced > Memory Split) to `16` since we won't be running a desktop.
-- Set your Hostname (Advanced > Hostname) if you don't like the default hostname `pi`.
+Expand file system to ensure that all of the SD card storage is available to the OS.
+
+`Advanced Options > Expand Filesystem`
+
+
 
 Commit the changes and reboot your Pi with
 
