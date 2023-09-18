@@ -47,9 +47,13 @@ sudo raspi-config
 
 Make the following configurations:
 
-Expand file system to ensure that all of the SD card storage is available to the OS.
+- Expand file system to ensure that all of the SD card storage is available to the OS.
 
-`Advanced Options > Expand Filesystem`
+  `Advanced Options > Expand Filesystem`
+
+- Enable VNC if needed
+
+  `Interfacing Options > VNC > YES`
 
 
 ## Docker Setup
@@ -66,4 +70,20 @@ sudo apt-get install -y uidmap
 
 ```bash
 dockerd-rootless-setuptool.sh install
+```
+
+### Install docker-compose
+
+```bash
+sudo apt install python3-pip
+```
+
+```bash
+sudo pip3 install docker-compose
+```
+
+### Docker login
+
+```bash
+docker login -u [username]
 ```
