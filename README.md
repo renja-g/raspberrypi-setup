@@ -53,3 +53,17 @@ Expand file system to ensure that all of the SD card storage is available to the
 
 
 ## Docker Setup
+
+### Install Docker
+
+```bash
+curl -sSL https://get.docker.com | sh
+```
+
+```bash
+sudo apt-get install -y uidmap
+```
+
+```bash
+dockerd-rootless-setuptool.sh install
+```
